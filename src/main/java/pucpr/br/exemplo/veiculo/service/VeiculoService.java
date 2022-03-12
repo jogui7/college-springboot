@@ -1,11 +1,13 @@
 package pucpr.br.exemplo.veiculo.service;
 
+import org.springframework.stereotype.Service;
 import pucpr.br.exemplo.veiculo.entity.Veiculo;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;
 
+@Service
 public class VeiculoService {
 
     Logger log = Logger.getLogger(VeiculoService.class.getName());
